@@ -8,12 +8,14 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Home from "./components/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="h-screen">
-      <Home />
-
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
       {/* <Header />
       <Banner />
       <Nav />

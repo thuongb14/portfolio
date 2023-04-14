@@ -9,7 +9,7 @@
  
     #A393EB 117.04%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(247, 245, 247, 0.51);
+  box-shadow: 0px 8px 107.23px rgba(247, 245, 247, 0.51);
 }
 
 
@@ -28,7 +28,6 @@
   background: linear-gradient(
     92.23deg,
     #406aff 21.43%,
-    #3bace2 50.63%,
     #b936ee 100%,
     #ff56f6 117.04%
   );

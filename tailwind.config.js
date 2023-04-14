@@ -1,8 +1,10 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Helvetica",
+      primary: ["Noto Sans", ...defaultTheme.fontFamily.sans],
       secondary: "Rajdhani",
       tertiary: "Aldrich",
     },

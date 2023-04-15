@@ -10,7 +10,7 @@ const Home = () => {
         scene="https://prod.spline.design/ym4Q3kHwACO3Kniv/scene.splinecode"
       />
       <div className="w-screen sm:bottom-10 absolute bottom-16 flex justify-center">
-        <Link to="/portfolio" className="btn btn-lg pt-4">
+        <Link to="/portfolio" className="btn btn-sm btn-secondary pt-4">
           Get to know me more! &#8594;
         </Link>
       </div>

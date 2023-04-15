@@ -24,8 +24,8 @@ module.exports = {
         primary: "#0a0a0a",
         accent: "#B809C3",
       },
-      backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
+      backgroundColor: {
+        site: "#091742 ",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },

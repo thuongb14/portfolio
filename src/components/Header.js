@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.svg";
-
+import About from "./About";
 const Header = () => {
   return (
     <header className="py-8">

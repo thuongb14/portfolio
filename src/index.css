@@ -6,13 +6,10 @@
   background: linear-gradient(
     92.23deg,
     #8C92E9 21.43%,
- 
     #A393EB 117.04%
   );
   box-shadow: 0px 8px 107.23px rgba(247, 245, 247, 0.51);
 }
-
-
 
 .btn:hover {
   background: linear-gradient(

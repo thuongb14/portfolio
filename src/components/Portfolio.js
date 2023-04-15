@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const Portfolio = () => {
   return (
-    <div className="bg-site h-screen">
+    <div className="bg-site h-100">
       <Header />
       <About/>
     </div>

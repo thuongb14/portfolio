@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 
 const App = () => {
   return (
-    <div className="h-screen ">
+    <div className="h-100">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>

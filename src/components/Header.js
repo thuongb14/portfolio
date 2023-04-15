@@ -9,7 +9,7 @@ const Header = () => {
           <a href="/">
             <img src={Logo} alt="" />
           </a>
-          <button className="btn btn-sm gradient">Download my CV</button>
+          <button className="btn btn-sm">Download my CV</button>
         </div>
       </div>
     </header>

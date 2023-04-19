@@ -6,11 +6,8 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="h-100">
-      <Spline
-        className="relative"
-        scene="https://prod.spline.design/ym4Q3kHwACO3Kniv/scene.splinecode"
-      />
+    <div className="h-screen">
+      <Spline scene="https://prod.spline.design/ym4Q3kHwACO3Kniv/scene.splinecode" />
       <motion.div
         variants={fadeIn("down", 0.6)}
         initial="hidden"

@@ -1,11 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { skills } from "../skills";
+
 
 const Education = () => {
+  const allSkills = skills.skills
   return (
     <section
-      className="mt-10 min-h-[85vh] lg:min-h-[78vh] flex items-center"
+      className="mt-20 min-h-[85vh] lg:min-h-[78vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto">
@@ -23,17 +26,57 @@ const Education = () => {
           </motion.h2>
         </div>
         {/* Content */}
-        <div className="flex flex-col gap-y-8 lg:flex-row items-center lg:gap-x-20">
+        <div className="flex flex-col gap-y-12 lg:flex-row items-center lg:gap-x-20">
           {/* Edu box */}
-          <motion.div variants={fadeIn("up", 0.4)}
+          <motion.div
+            variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }} className="education-box bg-white bg-opacity-30 p-10">
-            <div className="flex-1 edu-1">edu 1</div>
-            <div className="edu-2">edu 2</div>
+            viewport={{ once: false, amount: 0.3 }}
+            className="education-box text-center lg:text-left bg-[#8C92E9] bg-opacity-10 rounded-2 p-10"
+          >
+            <div className="flex-1 edu-1">
+              <p>2022-2023</p>
+              <p className="font-bold">Software Engineer</p>
+              <p>General Assembly</p>
+            </div>
+            <hr className="mt-10 mb-10" />
+            <div className="edu-2">
+              <p>2018-2021</p>
+              <p className="font-bold">Bachelor of Business (Marketing)</p>
+              <p>Monash University</p>
+            </div>
           </motion.div>
           {/* Skill box */}
-          <div className="lg:flex flex-1 skill-box">Skills</div>
+          <motion.div
+            variants={fadeIn("up", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex flex-col gap-y-3 flex-1 w-full p-10"
+          >
+            {allSkills.map((skill, index) => {
+              const {name, percentage} = skill;
+              return (
+                <div className="mb-1 w-full">
+                  <div className="flex flex-row w-full items-center gap-x-5">
+                    <p className="text-[35px] lg:text-[50px] font-bold">
+                      {percentage}
+                    </p>
+                    <div className="flex flex-col gap-y-1 w-full m-2">
+                      <p className="font-bold">{name}</p>
+                      <div className="flex w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div
+                          className={`bg-accent h-2.5 rounded-full`}
+                          style={{ width: `${percentage}` }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </motion.div>
         </div>
       </div>
     </section>

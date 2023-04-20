@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { skills } from "../skills";
+import { data } from "../data";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
 const Education = () => {
-  const allSkills = skills.skills
+  const allSkills = data.skills
   const [ref, inView] = useInView({
     threshold: 0.5
   })

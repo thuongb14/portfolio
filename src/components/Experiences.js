@@ -38,7 +38,7 @@ const Experiences = () => {
                 className="mx-10 lg:mx-0 bg-[#8C92E9] flex bg-opacity-10 px-10 py-8"
               >
                 <div className="w-full flex flex-col lg:flex-row gap-y-3 lg:gap-x-12 items-center text-center lg:text-left">
-                  <div className="lg:w-[25%] pr-5 border-r-[1px]">
+                  <div className="lg:w-[25%] pr-5 lg:border-r-[1px]">
                     <p>
                       <strong>{role}</strong>
                     </p>

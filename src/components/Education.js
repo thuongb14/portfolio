@@ -33,7 +33,7 @@ const Education = () => {
         <div className="flex flex-col gap-y-12 lg:flex-row items-center lg:gap-x-20">
           {/* Edu box */}
           <motion.div
-            variants={fadeIn("right", 0.4)}
+            variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
@@ -53,7 +53,7 @@ const Education = () => {
           </motion.div>
           {/* Skill box */}
           <motion.div
-            variants={fadeIn("left", 0.5)}
+            variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.5 }}

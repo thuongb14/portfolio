@@ -29,9 +29,9 @@ export const data = {
       time: "Dec 2022 - Present",
       type: "Full-Time",
       description: [
-        "Ensure the website is kept up to date by maintaining and uploading content on a regular basis.",
+        
         "Support and maintain current production code. Creating, testing, and sustaining web pages by utilising CMS systems, HTML, CSS and Bootstrap framework.",
-        "Optimise website content and UX for SEO and partner with Head of Digital and Social Media manager to execute best practice SEO.",
+        "Optimise website content and UX for SEO and partner with Head of Digital to execute best practice SEO.",
       ],
     },
     {
@@ -41,7 +41,7 @@ export const data = {
       type: "Full-Time",
       description: [
         "Own, manage and implement digital marketing including strategy, campaign development, market research, content development, website & social media management to reach more target customers.",
-        " Support the marketing manager to execute marketing strategies and campaigns in the focused markets",
+       
         "Utilize HTML/CSS and email marketing best practices to draft and implement email campaigns.",
       ],
     },
@@ -53,7 +53,7 @@ export const data = {
       type: "Part-Time",
       description: [
         "Prepare and receive cash and FX from cash-in-transit providers, banking, affiliates, etc.",
-        "Provide information to customers and respond to enquiries.",
+        
         "Accountable for daily bill (transactions, cash movements, expenses, etc.)",
       ],
     },

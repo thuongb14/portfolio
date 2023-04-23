@@ -29,7 +29,15 @@ module.exports = {
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },
+      backgroundImage: {
+        project1:
+          "url('https://plus.unsplash.com/premium_photo-1682001110118-cfda581e3611?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')",
+        project2:
+          "url('https://images.unsplash.com/photo-1681938329926-c927908b89a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')",
+      },
     },
   },
   plugins: [],
 };
+
+

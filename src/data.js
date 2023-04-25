@@ -76,7 +76,7 @@ export const data = {
       img: `${QuoteTherapy}`,
       title: "Quote Therapy",
       description:
-        "A full-stack application where users can find cheer-up quotes with built in Spotify API to play different Lofi track for each quote. Built with JS, Python and PostgreSQL",
+        "A full-stack application where users can find cheer-up quotes with built-in Spotify API to play different Lofi track for each quote. Built with JS, Python and PostgreSQL",
     },
     {
       link: "https://github.com/thuongb14/doughlicious-store",

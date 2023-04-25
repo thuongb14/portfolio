@@ -26,7 +26,7 @@ const Projects = () => {
               <span className="text-white mr-4 relative">My Projects</span>
             </motion.h2>
           </div>
-          <div className="gap-10 columns-1 lg:columns-2 mx-auto">
+          <div className="mx-6 lg:mx-0 gap-10 columns-1 lg:columns-2 mx-auto">
             {projects.map((project, index) => {
               const { link, img, title, description } = project;
 
@@ -36,7 +36,7 @@ const Projects = () => {
                     variants={fadeIn("right", 0.3)}
                     initial="hidden"
                     whileInView={"show"}
-                    viewport={{ once: false, amount: 0.3 }}
+                    viewport={{ once: false, amount: 0.1 }}
                     className="mb-[2rem] relative w-full aspect-video mb-6 group cursor-pointer"
                   >
                     <img

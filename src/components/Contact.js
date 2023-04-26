@@ -37,7 +37,8 @@ const Contact = () => {
   };
   return (
     <div>
-      <section id="contact"
+      <section
+        id="contact"
         className="mt-10 min-h-[85vh] lg:min-h-[78vh] flex items-center"
       >
         <div className="container mx-auto">
@@ -63,14 +64,14 @@ const Contact = () => {
               <h2 className="text-center lg:text-left text-[60px] lg:text-[90px] leading-none mb-12">
                 Let's work <br /> together!
               </h2>
-              <p className="text-[22px] flex flex-row items-center mb-2">
+              <div className="justify-center lg:justify-start text-[22px] flex flex-row items-center mb-2">
                 <FiMail className="w-[40px]" />
                 thuongb14@gmail.com
-              </p>
-              <p className="text-[22px] flex flex-row items-center">
+              </div>
+              <div className="justify-center lg:justify-start mb-8 text-[22px] flex flex-row items-center">
                 <FiPhone className="w-[40px]" />
                 0401 491 750
-              </p>
+              </div>
             </div>
             {/* form */}
             <form

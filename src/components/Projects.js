@@ -10,7 +10,7 @@ const Projects = () => {
     <div>
       <section
         className="mt-10 min-h-[85vh] lg:min-h-[78vh] flex items-center"
-        id="home"
+        id="projects"
       >
         <div className="container mx-auto">
           <div className="flex-1 text-center font-secondary lg:text-left">

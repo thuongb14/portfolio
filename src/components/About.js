@@ -68,7 +68,7 @@ const About = () => {
               <a href="#contact">
                 <button className=" btn-link btn btn-lg">Contact Me</button>
               </a>
-              <a className="text-gradient btn-link">My Portfolio</a>
+              <a href="#projects" className="text-gradient btn-link">My Projects</a>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}

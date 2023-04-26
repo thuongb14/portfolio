@@ -31,10 +31,10 @@ const Experiences = () => {
             const { role, company, time, type, description } = experience;
             return (
               <motion.div
-                variants={fadeIn("up", 0.5)}
+                variants={fadeIn("up", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: false, amount: 0.4 }}
                 className="mx-10 lg:mx-0 bg-[#8C92E9] flex bg-opacity-10 px-10 py-8"
               >
                 <div className="w-full flex flex-col lg:flex-row gap-y-3 lg:gap-x-12 items-center text-center lg:text-left">

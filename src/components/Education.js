@@ -53,10 +53,10 @@ const Education = () => {
           </motion.div>
           {/* Skill box */}
           <motion.div
-            variants={fadeIn("down", 0.5)}
+            variants={fadeIn("down", 0.4)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: false, amount: 0.4 }}
             className="flex flex-col gap-y-3 flex-1 w-full p-10"
           >
             {allSkills.map((skill, index) => {

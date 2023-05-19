@@ -12,9 +12,7 @@ const Portfolio = () => {
       <Header />
       <About />
       <Education />
-      {/* <hr className="mx-auto opacity-20" /> */}
       <Experiences />
-      {/* <hr className="mx-auto opacity-20" /> */}
       <Projects />
       <Contact/>
     </div>

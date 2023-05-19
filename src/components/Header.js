@@ -18,7 +18,7 @@ const Header = () => {
           <a href="/">
             <img src={Logo} alt="" />
           </a>
-          <button onClick={handleDownload} className="btn btn-sm">
+          <button onClick={handleDownload} className="btn btn-sm ">
             Download my CV
           </button>
         </div>
